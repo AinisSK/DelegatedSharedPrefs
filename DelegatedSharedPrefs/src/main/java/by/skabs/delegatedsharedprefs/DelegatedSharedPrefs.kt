@@ -13,7 +13,7 @@ import kotlin.reflect.KProperty
  *
  * <p>Wrapper provides convenient way of working with SharedPreferences</p>
  *
- * <p>To add new SharedPreference all you need is just define Kotlin field delegated by
+ * <p>To add new SharedPreference all you need is just define Kotlin property delegated by
  * @link{PreferencesDelegate} and provide default value</p>
  *
  * <p><b>This class also provides fix for SharedPreferences when we want to store Set of Strings.</b>
