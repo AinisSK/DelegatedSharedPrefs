@@ -1,2 +1,3 @@
 # DelegatedSharedPrefs
-Wrapper provides convenient way of working with SharedPreferences
+<p>The sample application shows how to use and work with the SharedPreference library in an alternative way which helps to make its usage as simple and convenient as possible. To add new SharedPreference all you need is just define Kotlin property delegated by @link{PreferencesDelegate} and provide a default value</p>
+<p>This class also provides a fix for SharedPreferences when we want to store Set of Strings. The bug is when you get Set from preferences, then change it(add or remove items), and then trying to write it back to Preferences, at runtime everything seems OK, but after app relaunch, you'll lose all you changes, cause there is kinda optimization: due to object of Set remains the same Android does not override it and keeps the previous object without applying any changes to it.</p>
