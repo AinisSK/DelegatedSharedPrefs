@@ -1,0 +1,3 @@
+include ':DelegatedSharedPrefs'
+include ':app'
+rootProject.name = "PrefsExample"
